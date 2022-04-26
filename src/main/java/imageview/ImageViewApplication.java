@@ -12,7 +12,7 @@ public class ImageViewApplication extends Application {
     @Override
     public void start(Stage stage) {
 //        Image image = new Image("http://cr.openjdk.java.net/~jeff/Duke/png/Hips.png");
-        Image image = new Image(getClass().getResourceAsStream("/Hips.png"));
+        Image image = new Image("/Hips.png");
 
         ImageView imageView = new ImageView();
         imageView.setImage(image);
